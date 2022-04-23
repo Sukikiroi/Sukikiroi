@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on Any System Desing work with Pub/Sub pattern Or Kafka
 - 📫 How to reach me 
 - Email:Kaddourabdellaziz@gmail.com
-- LinkedIn:
+- LinkedIn:https://www.linkedin.com/in/kaddour-abdelaziz-54aa9a11a/
 
 <!---
 Sukikiroi/Sukikiroi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
