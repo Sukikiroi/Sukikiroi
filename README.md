@@ -2,6 +2,7 @@
 - 👀 I’m interested in Web App && Distributed System && MicroServices && Bug Bounty
 - 🌱 I’m currently learning Pub/Sub pattern
 - 💞️ I’m looking to collaborate on Any System Desing work with Pub/Sub pattern Or Kafka
+- 🎯  2022 Goals: To Contribute in Open Source projects.
 - 📫 How to reach me 
 - Email:Kaddourabdellaziz@gmail.com
 - LinkedIn:https://www.linkedin.com/in/kaddour-abdelaziz-54aa9a11a/
