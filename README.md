@@ -1,15 +1,73 @@
-- 👋 Hi, I’m Full stack developer
-- 👀 I’m interested in Web App && Distributed System && MicroServices && Bug Bounty
-- 🌱 I’m currently learning Pub/Sub pattern
-- 💞️ I’m looking to collaborate on Any System Desing work with Pub/Sub pattern Or Kafka
-- 🎯  2022 Goals: To Contribute in Open Source projects:
-1-Supabase
-2-NOTIFY
-- 📫 How to reach me 
-- Email:..
-- LinkedIn:..
-- :pencil: [My First System Design](https://robkgayuuacnrizpifmn.supabase.co/storage/v1/object/public/material/auto_scaling_ML.png?t=2022-09-05T08%3A03%3A58.295Z) 
-<!---
-Sukikiroi/Sukikiroi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+👋 Hi, I’m a Full Stack Developer
+
+👀 I’m interested in Web Apps, Distributed Systems, Microservices, and Bug Bounty.
+
+🌱 I’m currently diving deeper into the Pub/Sub pattern and event-driven architectures.
+
+💡 I’m exploring Kafka, RabbitMQ, and other messaging platforms to build scalable and resilient systems.
+
+💞️ I’m looking to collaborate on system design projects that leverage the Pub/Sub pattern, Kafka, or event streaming platforms.
+
+🎯 2025 Goals:
+- Contribute to Open Source projects:
+  - pentestgpt
+  - python networking scripts
+- Build and share a comprehensive guide on designing scalable systems using the Pub/Sub pattern.
+- Mentor aspiring developers on system design and distributed systems.
+
+📫 How to reach me:
+- Email: [Your email here]
+- LinkedIn: [Your LinkedIn profile]
+
+📝 My Latest System Design: 
++-----------------------+
+|  Core Simulation      |
+|       Engine          |
++-----------------------+
+        |
+        | (initialize_simulation(config), run_step(), reset(), terminate())
+        |
++-----------------------+
+|       Controller      |
++-----------------------+
+        |
+        | (start_simulation(), pause_simulation(), resume_simulation(), apply_plugin_actions())
+        |
+        v
++-----------------------+
+|   Plugin Manager      |
++-----------------------+
+        |
+        | (load_plugin(), unload_plugin(), get_registered_plugins())
+        |
+        v
++-----------------------+
+|   Plugin Interface    |
+| - on_start()          |
+| - on_simulation_step()|
+| - on_stop()           |
++-----------------------+
+        |
+        | (Implements Plugin Interface)
+        |
++-----------------------+
+|       Plugins         |
+| - Plugin 1            |
+| - Plugin 2            |
+| - Plugin 3            |
++-----------------------+
+        ^
+        |
+        | (Plugins interact with the Core Simulation Engine through the interface)
+        |
++-----------------------+
+|  Core Simulation      |
+|       Engine          |
++-----------------------+
+**Explanation:**
+  Core Simulation Engine: Handles the core logic of the simulation.
+  Controller: Manages the simulation flow and coordinates between the engine and plugins.
+  Plugin Manager: Loads and registers plugins dynamically.
+  Plugin Interface: Defines the interaction methods for plugins.
+  Plugins: Implement specific behaviors and interact with the engine using the defined interface.
