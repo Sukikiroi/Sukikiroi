@@ -17,57 +17,15 @@
 - Mentor aspiring developers on system design and distributed systems.
 
 📫 How to reach me:
-- Email: [Your email here]
-- LinkedIn: [Your LinkedIn profile]
+- Email:  kaddourabdellaziz@gmail.com
+- LinkedIn:https://www.linkedin.com/in/kaddour-abdelaziz-54aa9a11a/
 
-📝 My Latest System Design: 
-+-----------------------+
-|  Core Simulation      |
-|       Engine          |
-+-----------------------+
-        |
-        | (initialize_simulation(config), run_step(), reset(), terminate())
-        |
-+-----------------------+
-|       Controller      |
-+-----------------------+
-        |
-        | (start_simulation(), pause_simulation(), resume_simulation(), apply_plugin_actions())
-        |
-        v
-+-----------------------+
-|   Plugin Manager      |
-+-----------------------+
-        |
-        | (load_plugin(), unload_plugin(), get_registered_plugins())
-        |
-        v
-+-----------------------+
-|   Plugin Interface    |
-| - on_start()          |
-| - on_simulation_step()|
-| - on_stop()           |
-+-----------------------+
-        |
-        | (Implements Plugin Interface)
-        |
-+-----------------------+
-|       Plugins         |
-| - Plugin 1            |
-| - Plugin 2            |
-| - Plugin 3            |
-+-----------------------+
-        ^
-        |
-        | (Plugins interact with the Core Simulation Engine through the interface)
-        |
-+-----------------------+
-|  Core Simulation      |
-|       Engine          |
-+-----------------------+
+📝 My Latest System Design: ![carbon (4)](https://github.com/user-attachments/assets/25e2f99d-e12b-44e2-947d-4c1dddce7861)
+
+
 **Explanation:**
-  Core Simulation Engine: Handles the core logic of the simulation.
-  Controller: Manages the simulation flow and coordinates between the engine and plugins.
-  Plugin Manager: Loads and registers plugins dynamically.
-  Plugin Interface: Defines the interaction methods for plugins.
-  Plugins: Implement specific behaviors and interact with the engine using the defined interface.
+  - Core Simulation Engine: Handles the core logic of the simulation.
+  - Controller: Manages the simulation flow and coordinates between the engine and plugins.
+  - Plugin Manager: Loads and registers plugins dynamically.
+  - Plugin Interface: Defines the interaction methods for plugins.
+  - Plugins: Implement specific behaviors and interact with the engine using the defined interface.
